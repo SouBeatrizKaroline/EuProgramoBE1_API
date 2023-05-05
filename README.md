@@ -2,7 +2,7 @@
 
 > Turma 1
 
-Exercicios
+Projeto desenvolvido durante o curso EuProgrAmo Back-End 1
 
 ## 🛠 Tecnologias
 
