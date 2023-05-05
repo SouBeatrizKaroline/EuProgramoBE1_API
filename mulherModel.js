@@ -1,22 +1,22 @@
 const mongoose = require('mongoose')
 
-const MulherSchema = new mongoose.Schema({ 
-    nome:{
-        type:String,
-        require: true 
+const MulherSchema = new mongoose.Schema({
+    nome: {
+        type: String,
+        required: true
     },
     imagem: {
-        type:String,
-        require: true 
+        type: String,
+        required: true,
     },
-    citação: {
+    citacao: {
         type:String,
-        require: true 
+        required: true,
     },
     minibio: {
-        type:String,
-        require: true 
-    },
+        type: String,
+        required: true
+    }
 })
 
-model.exports = mongoose.model('diva', MulherSchema)
+module.exports = mongoose.model('diva', MulherSchema)
